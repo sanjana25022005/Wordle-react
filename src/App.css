@@ -1,0 +1,170 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: #faf8f4; /* Soft beige background */
+  color: #333; /* Darker text for contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+h1 {
+  font-size: 2.5rem;
+  color: #6b705c; /* Muted green */
+  margin-bottom: 1.5rem;
+}
+
+ol {
+  padding: 1rem;
+  margin: 0 auto 1rem;
+  background-color: #ffe8d6; /* Soft pastel orange */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-width: 500px;
+}
+
+li {
+  margin: 0.5rem 0;
+  color: #6a5d5d; /* Muted text for attempts */
+}
+
+form {
+  margin: 1.5rem 0;
+}
+
+input[type="text"] {
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 70%;
+  max-width: 400px;
+  font-size: 1rem;
+  background-color: #f8edeb; /* Soft pink */
+  color: #333;
+}
+
+input[type="radio"] {
+  margin: 0 0.5rem;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  background-color: #a2d2ff; /* Pastel blue */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #8ecae6; /* Slightly darker pastel blue */
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 4px #8ecae6;
+}
+
+label {
+  font-size: 1rem;
+  color: #4a4e69; /* Muted purple */
+  margin-right: 1rem;
+}
+
+.error {
+  color: #e63946; /* Soft red for errors */
+  margin-top: 1rem;
+}
+
+.card {
+  padding: 2em;
+  background-color: #e9ecef; /* Light grey-blue */
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.read-the-docs {
+  color: #6c757d; /* Muted grey for less prominent text */
+}
+
+
+
+
+/*#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/
